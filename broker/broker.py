@@ -6,7 +6,7 @@ import json
 server_options = []
 
 # Address to bind to. Port 8372 is the default broker server port
-broker_address, broker_port = "0.0.0.0", 8372
+broker_address, broker_port = "127.0.0.1", 8372
 
 # GunBound Thor's Hammer packet layout:
 # Packet Data: 0c 00 eb cb 12 13 30 00 ff ff ff ff
